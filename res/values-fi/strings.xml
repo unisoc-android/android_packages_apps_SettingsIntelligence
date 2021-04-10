@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"Sovelluksen tiedot"</string>
+<string name="accessibility_settings">"Esteettömyys"</string>
+<string name="physical_keyboard_title">"Fyysinen näppäimistö"</string>
+<string name="add_virtual_keyboard">"Näppäimistöjen hallinnointi"</string>
+<string name="app_name_settings_intelligence">"Asetusehdotukset"</string>
+<string name="search_clear_history">"Tyhjennä historia"</string>
+<string name="search_no_results">"Ei tuloksia"</string>
+</resources>

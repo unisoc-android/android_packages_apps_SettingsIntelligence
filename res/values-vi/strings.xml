@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"Thông tin ứng dụng"</string>
+<string name="accessibility_settings">"Hỗ trợ tiếp cận"</string>
+<string name="physical_keyboard_title">"Bàn phím thực"</string>
+<string name="add_virtual_keyboard">"Quản lý bàn phím"</string>
+<string name="app_name_settings_intelligence">"Gợi ý cài đặt"</string>
+<string name="search_clear_history">"Xóa lịch sử"</string>
+<string name="search_no_results">"Không có kết quả"</string>
+</resources>

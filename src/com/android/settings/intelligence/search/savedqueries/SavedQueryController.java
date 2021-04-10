@@ -46,6 +46,7 @@ public class SavedQueryController implements LoaderManager.LoaderCallbacks,
     private final LoaderManager mLoaderManager;
     private final SearchFeatureProvider mSearchFeatureProvider;
     private final SearchResultsAdapter mResultAdapter;
+    private MenuItem mItem;
 
     public SavedQueryController(Context context, LoaderManager loaderManager,
             SearchResultsAdapter resultsAdapter) {
@@ -75,12 +76,20 @@ public class SavedQueryController implements LoaderManager.LoaderCallbacks,
             case SearchFragment.SearchLoaderId.REMOVE_QUERY_TASK:
                 mLoaderManager.restartLoader(SearchFragment.SearchLoaderId.SAVED_QUERIES,
                         null /* args */, this /* callback */);
+                // Add for Bug#1113499: update the view when remove saved queries
+                mResultAdapter.displaySavedQuery((List<SearchResult>) data);
                 break;
             case SearchFragment.SearchLoaderId.SAVED_QUERIES:
                 if (SearchFeatureProvider.DEBUG) {
                     Log.d(TAG, "Saved queries loaded");
                 }
-                mResultAdapter.displaySavedQuery((List<SearchResult>) data);
+                /* Modify for Bug#1113499: update the view when remove saved queries @{ */
+                List<SearchResult> results = (List<SearchResult>) data;
+                if (null != results && !results.isEmpty()) {
+                    mResultAdapter.displaySavedQuery((List<SearchResult>) results);
+                }
+                mItem.setEnabled(mResultAdapter.getItemCount() > 0);
+                /* @} */
                 break;
         }
     }
@@ -99,9 +108,13 @@ public class SavedQueryController implements LoaderManager.LoaderCallbacks,
     }
 
     public void buildMenuItem(Menu menu) {
-        final MenuItem item =
+        menu.clear();
+        MenuItem item =
                 menu.add(Menu.NONE, MENU_SEARCH_HISTORY, Menu.NONE, R.string.search_clear_history);
         item.setOnMenuItemClickListener(this);
+        // Add for Bug#1113499: set item disabled when history list is empty.
+        item.setEnabled(mResultAdapter.getItemCount() > 0);
+        mItem = item;
     }
 
     public void saveQuery(String query) {

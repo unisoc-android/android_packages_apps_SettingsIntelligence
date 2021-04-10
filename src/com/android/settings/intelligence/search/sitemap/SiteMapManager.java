@@ -74,6 +74,11 @@ public class SiteMapManager {
                 }
                 return breadcrumbs;
             }
+            /* Add for bug1104165, Show "null" in searchResult @{ */
+            if (null == pair.getParentTitle()) {
+                return breadcrumbs;
+            }
+            /* @} */
             breadcrumbs.add(0, pair.getParentTitle());
             currentClass = pair.getParentClass();
             currentTitle = pair.getParentTitle();

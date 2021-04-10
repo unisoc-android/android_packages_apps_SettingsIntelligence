@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">Πληροφορίες εφαρμογής</string>
+<string name="accessibility_settings">"Προσβα/τητα"</string>
+<string name="physical_keyboard_title">Φυσικό πληκτρολόγιο</string>
+<string name="add_virtual_keyboard">"Διαχείριση πληκτρολογίων"</string>
+<string name="app_name_settings_intelligence">Προτάσεις ρυθμίσεων</string>
+<string name="search_clear_history">"Εκκαθάριση ιστορικού"</string>
+<string name="search_no_results">"Κανένα αποτέλεσμα"</string>
+</resources>

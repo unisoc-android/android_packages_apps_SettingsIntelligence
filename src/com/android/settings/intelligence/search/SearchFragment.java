@@ -78,6 +78,8 @@ public class SearchFragment extends Fragment implements SearchView.OnQueryTextLi
         public static final int REMOVE_QUERY_TASK = 3;
         public static final int SAVED_QUERIES = 4;
     }
+    // Add for Bug#1113499: Limit the max length of query text
+    private static final int MAX_LEN = 100;
 
     @VisibleForTesting
     String mQuery;
@@ -151,6 +153,14 @@ public class SearchFragment extends Fragment implements SearchView.OnQueryTextLi
         super.onCreateOptionsMenu(menu, inflater);
         mSavedQueryController.buildMenuItem(menu);
     }
+
+    /* Add for Bug#1113499: Set item disabled when history list is empty. @{ */
+    @Override
+    public void onPrepareOptionsMenu(final Menu menu) {
+        super.onPrepareOptionsMenu(menu);
+        mSavedQueryController.buildMenuItem(menu);
+    }
+    /* @} */
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -227,7 +237,8 @@ public class SearchFragment extends Fragment implements SearchView.OnQueryTextLi
                 && query.length() < mQuery.length()) {
             mNoResultsView.setVisibility(View.GONE);
         }
-
+        // Add for Bug#1113499: Limit the max length of query text
+        query = getLimitedQueryText(query);
         mNeverEnteredQuery = false;
         mQuery = query;
 
@@ -249,6 +260,17 @@ public class SearchFragment extends Fragment implements SearchView.OnQueryTextLi
 
         return true;
     }
+
+    /* Add for Bug#1113499: Limit the max length of query text @{ */
+    private String getLimitedQueryText(String query) {
+       int len = query.length();
+       if (len > MAX_LEN) {
+           query = query.substring(0, MAX_LEN);
+           mSearchView.setQuery(query, false /* submitQuery */);
+       }
+       return query;
+    }
+    /* @ */
 
     @Override
     public boolean onQueryTextSubmit(String query) {
@@ -359,9 +381,12 @@ public class SearchFragment extends Fragment implements SearchView.OnQueryTextLi
         final Activity activity = getActivity();
         if (activity != null) {
             View view = activity.getCurrentFocus();
-            InputMethodManager imm = (InputMethodManager)
-                    activity.getSystemService(Context.INPUT_METHOD_SERVICE);
-            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+            // Add for Bug#1113499: Prevent NPE
+            if (null != view) {
+                InputMethodManager imm = (InputMethodManager)
+                        activity.getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+            }
         }
 
         if (mResultsRecyclerView != null) {

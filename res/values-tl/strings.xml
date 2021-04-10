@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"Impormasyon ng app"</string>
+<string name="accessibility_settings">"Accessibility"</string>
+<string name="physical_keyboard_title">"Aktwal na keyboard"</string>
+<string name="add_virtual_keyboard">"Pamahalaan ang mga keyboard"</string>
+<string name="app_name_settings_intelligence">"Mga Suhestyon sa Mga Setting"</string>
+<string name="search_clear_history">"I-clear ang kasaysayan"</string>
+<string name="search_no_results">"Walang resulta"</string>
+</resources>

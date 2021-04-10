@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"የመተግበሪያ መረጃ"</string>
+<string name="accessibility_settings">"ተደራሽነት"</string>
+<string name="physical_keyboard_title">"አካላዊ ቁልፍ ሰሌዳ"</string>
+<string name="add_virtual_keyboard">"የቁልፍ ሰሌዳዎችን ያቀናብሩ"</string>
+<string name="app_name_settings_intelligence">"የቅንብሮች ጥቆማዎች"</string>
+<string name="search_clear_history">"ታሪክ አጥራ"</string>
+<string name="search_no_results">"ውጤቶች የሉም"</string>
+</resources>

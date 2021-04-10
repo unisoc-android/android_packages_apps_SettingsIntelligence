@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"အက္ပ္အခ်က္အလက္"</string>
+<string name="accessibility_settings">"ဝင္ေရာက္ျခင္း"</string>
+<string name="physical_keyboard_title">"လက္ပါေသာ physical ကီးဘုတ္ ကိုသံုးပါ။"</string>
+<string name="add_virtual_keyboard">"ကီးဘုတ္မ်ား စီမံ"</string>
+<string name="app_name_settings_intelligence">"ဆက္တင္ အႀကံျပဳခ်က္မ်ား"</string>
+<string name="search_clear_history">"မွတ္တမ္းကို ႐ွင္းလင္းပါ"</string>
+<string name="search_no_results">"အေျဖမ်ားမရွိ"</string>
+</resources>

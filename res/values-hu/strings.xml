@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"Alkalmazásinformáció"</string>
+<string name="accessibility_settings">"Kisegítő lehetőségek"</string>
+<string name="physical_keyboard_title">"Fizikai billentyűzet"</string>
+<string name="add_virtual_keyboard">"Billentyűzetek kezelése"</string>
+<string name="app_name_settings_intelligence">"Javasolt beállítások"</string>
+<string name="search_clear_history">"Előzmények törlése"</string>
+<string name="search_no_results">"Nincsenek eredmények"</string>
+</resources>

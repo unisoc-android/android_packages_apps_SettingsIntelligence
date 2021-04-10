@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"ആപ്പ് വിവരങ്ങള്‍"</string>
+<string name="accessibility_settings">"പ്രവേശനം"</string>
+<string name="physical_keyboard_title">"ഫിസിക്കൽ കീബോർഡ്‌ "</string>
+<string name="add_virtual_keyboard">"കീബോഡുകൾ കൈകാര്യം ചെയ്യുക"</string>
+<string name="app_name_settings_intelligence">"സെറ്റിംഗ്സ് നിർദ്ദേശങ്ങൾ"</string>
+<string name="search_clear_history">"ചരിത്രം എടുത്തു മാറ്റുക"</string>
+<string name="search_no_results">"ഫലങ്ങളില്ല"</string>
+</resources>

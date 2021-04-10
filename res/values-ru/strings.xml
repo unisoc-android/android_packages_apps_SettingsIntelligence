@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"Информация о приложении"</string>
+<string name="accessibility_settings">"Специальные возможности"</string>
+<string name="physical_keyboard_title">"Обычная клавиатура"</string>
+<string name="add_virtual_keyboard">"Управление клавиатурами"</string>
+<string name="app_name_settings_intelligence">"Рекомендованные настройки"</string>
+<string name="search_clear_history">"Очистить историю"</string>
+<string name="search_no_results">"Нет результатов"</string>
+</resources>

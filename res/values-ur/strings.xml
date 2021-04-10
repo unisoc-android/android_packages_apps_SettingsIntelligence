@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"ایپ کی معلومات"</string>
+<string name="accessibility_settings">"رسائی"</string>
+<string name="physical_keyboard_title">"طبعی کلیدی تختہ"</string>
+<string name="add_virtual_keyboard">"کی بورڈس کو مینیج کریں"</string>
+<string name="app_name_settings_intelligence">" ترتیب کی تجاویز"</string>
+<string name="search_clear_history">"تاریخ صاف کریں"</string>
+<string name="search_no_results">"کوئی نتائج نہیں"</string>
+</resources>

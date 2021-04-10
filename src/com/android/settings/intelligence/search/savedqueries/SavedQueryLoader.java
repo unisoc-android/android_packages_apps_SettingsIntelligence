@@ -20,6 +20,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import androidx.annotation.VisibleForTesting;
+import android.text.TextUtils;
 
 import com.android.settings.intelligence.search.SearchResult;
 import com.android.settings.intelligence.search.indexing.IndexDatabaseHelper;
@@ -68,13 +69,17 @@ public class SavedQueryLoader extends AsyncLoader<List<? extends SearchResult>> 
     private List<SearchResult> convertCursorToResult(Cursor cursor) {
         final List<SearchResult> results = new ArrayList<>();
         while (cursor.moveToNext()) {
-            final SavedQueryPayload payload = new SavedQueryPayload(
-                    cursor.getString(cursor.getColumnIndex(SavedQueriesColumns.QUERY)));
-            results.add(new SearchResult.Builder()
-                    .setDataKey(payload.query)
-                    .setTitle(payload.query)
-                    .setPayload(payload)
-                    .build());
+            /* Modify for Bug#1113499: Prevent SettingsIntelligence crash while loading query history @{ */
+            final String query = cursor.getString(cursor.getColumnIndex(SavedQueriesColumns.QUERY));
+            if (!TextUtils.isEmpty(query)) {
+                final SavedQueryPayload payload = new SavedQueryPayload(query);
+                results.add(new SearchResult.Builder()
+                        .setDataKey(payload.query)
+                        .setTitle(payload.query)
+                        .setPayload(payload)
+                        .build());
+            }
+            /* @} */
         }
         return results;
     }

@@ -20,6 +20,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
+import android.text.TextUtils;
 import android.util.Log;
 
 import com.android.settings.intelligence.search.indexing.IndexDatabaseHelper;
@@ -51,6 +52,12 @@ public class SavedQueryRecorder extends AsyncLoader<Void> {
 
     @Override
     public Void loadInBackground() {
+        /* Add for Bug#1113499: Prevent SettingsIntelligence crash while loading query history @{ */
+        if (TextUtils.isEmpty(mQuery)) {
+            return null;
+        }
+        /* @} */
+
         final long now = System.currentTimeMillis();
 
         final ContentValues values = new ContentValues();

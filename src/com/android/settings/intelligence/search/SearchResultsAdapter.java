@@ -93,7 +93,10 @@ public class SearchResultsAdapter extends RecyclerView.Adapter<SearchViewHolder>
      */
     public void displaySavedQuery(List<? extends SearchResult> data) {
         clearResults();
-        mSearchResults.addAll(data);
+        // Add for Bug#1113499: Data is null, do not add
+        if ( data != null && !data.isEmpty()) {
+            mSearchResults.addAll(data);
+        }
         notifyDataSetChanged();
     }
 

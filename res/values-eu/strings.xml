@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">Aplikazioaren informazioa</string>
+<string name="accessibility_settings">Sarbidea</string>
+<string name="physical_keyboard_title">Teklatu fisikoa</string>
+<string name="add_virtual_keyboard">Kudeatu teklatuak</string>
+<string name="app_name_settings_intelligence">"Ezarpen-iradokizunak"</string>
+<string name="search_clear_history">Garbiketa historia</string>
+<string name="search_no_results">Emaitzik ez</string>
+</resources>

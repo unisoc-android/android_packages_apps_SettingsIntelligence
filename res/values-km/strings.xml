@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"ព័ត៌មាន​កម្មវិធី"</string>
+<string name="accessibility_settings">"ភាព​ងាយស្រួល"</string>
+<string name="physical_keyboard_title">"ក្ដាចុច​ជាក់ស្ដែង"</string>
+<string name="add_virtual_keyboard">"ចាត់ចែងក្ដារចុច"</string>
+<string name="app_name_settings_intelligence">"ការណែនាំពីការកំណត់"</string>
+<string name="search_clear_history">លុបសម្អាតប្រវត្តិកំណត់ត្រាចោល</string>
+<string name="search_no_results">"រកមិនឃើញលទ្ធផលទេ"</string>
+</resources>

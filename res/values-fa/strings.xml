@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"اطلاعات برنامه"</string>
+<string name="accessibility_settings">"قابلیت دسترسی"</string>
+<string name="physical_keyboard_title">"صفحه‌کلید فیزیکی"</string>
+<string name="add_virtual_keyboard">"مدیریت صفحه‌کلیدها"</string>
+<string name="app_name_settings_intelligence">"پیشنهادات تنظیمات"</string>
+<string name="search_clear_history">"پاک کردن سابقه"</string>
+<string name="search_no_results">"بدون نتیجه"</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"ଏପ ତଥ୍ୟ"</string>
+<string name="accessibility_settings">"ପ୍ରବେଶାଧିକାର/ପ୍ରାପ୍ତାଧିକାର"</string>
+<string name="physical_keyboard_title">"ଭୌତିକ କିବୋର୍ଡ"</string>
+<string name="add_virtual_keyboard">"କୀବୋର୍ଡଗୁଡ଼ିକ ମ୍ୟାନେଜ୍ କରନ୍ତୁ"</string>
+<string name="app_name_settings_intelligence">"ସେଟିଂସ ପରାମର୍ଶଗୁଡ଼ିକ"</string>
+<string name="search_clear_history">"ହିଷ୍ଟୋରିକୁ ଅପସାରିତ କରନ୍ତୁ"</string>
+<string name="search_no_results">"କୌଣସି ଫଳ ନାହିଁ"</string>
+</resources>

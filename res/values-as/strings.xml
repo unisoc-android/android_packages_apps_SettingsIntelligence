@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"এপ্ ইনফো"</string>
+<string name="accessibility_settings">"আহৰণযোগ্যতা"</string>
+<string name="physical_keyboard_title">"শাৰীৰিক কী-ব\'ৰ্ড"</string>
+<string name="add_virtual_keyboard">"কীবোৰ্ড ব্যৱস্থাপনা কৰক"</string>
+<string name="app_name_settings_intelligence">"ছেটিং পৰামৰ্শসমূহ"</string>
+<string name="search_clear_history">"সবিশেষ মচি পেলাওঁক"</string>
+<string name="search_no_results">"কোনো ফলাফল নাই"</string>
+</resources>

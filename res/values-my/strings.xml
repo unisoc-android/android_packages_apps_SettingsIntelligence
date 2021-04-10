@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"အက်ပ်အချက်အလက်"</string>
+<string name="accessibility_settings">"ဝင်ရောက်ခြင်း"</string>
+<string name="physical_keyboard_title">"လက်ပါသော physical ကီးဘုတ်ကို သုံးပါ"</string>
+<string name="add_virtual_keyboard">"ကီးဘုတ်များကို စီမံရန်"</string>
+<string name="app_name_settings_intelligence">"ဆက်တင်များဆိုင်ရာ အကြံပြုချက်များ"</string>
+<string name="search_clear_history">"မှတ်တမ်းကို ရှင်းလင်းပါ"</string>
+<string name="search_no_results">"ရလဒ်များ မရှိပါ"</string>
+</resources>

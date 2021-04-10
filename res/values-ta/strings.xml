@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">அப்ளிகேஷன் தகவல்</string>
+<string name="accessibility_settings">அணுகல் தன்மை</string>
+<string name="physical_keyboard_title">பொருள்ரீதியான கீபலகை</string>
+<string name="add_virtual_keyboard">"கீபோர்டுகளை நிர்வகி"</string>
+<string name="app_name_settings_intelligence">"அமைப்புகள் பரிந்துரைகள்"</string>
+<string name="search_clear_history">"வரலாற்றை அழித்திடு"</string>
+<string name="search_no_results">"முடிவுகள் ஏதுமில்லை"</string>
+</resources>

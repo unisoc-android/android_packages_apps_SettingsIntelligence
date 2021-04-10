@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"Taarifa ya programu"</string>
+<string name="accessibility_settings">"Ufikiaji"</string>
+<string name="physical_keyboard_title">"Kibodi halisi"</string>
+<string name="add_virtual_keyboard">"Dhibiti kibodi"</string>
+<string name="app_name_settings_intelligence">"Mapendekezo ya Mipangilio"</string>
+<string name="search_clear_history">"Futa historia"</string>
+<string name="search_no_results">"Hakuna Matokeo"</string>
+</resources>

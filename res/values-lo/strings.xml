@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"ຂໍ້ມູນແອັບ"</string>
+<string name="accessibility_settings">"ການຊ່ວຍເຂົ້າເຖິງ"</string>
+<string name="physical_keyboard_title">"ແປ້ນພິມແທ້"</string>
+<string name="add_virtual_keyboard">"ຈັດການຄີບອດ"</string>
+<string name="app_name_settings_intelligence">"ຄໍາແນະນໍາໃນການຕັ້ງຄ່າ"</string>
+<string name="search_clear_history">"ລຶບ​ປະ​ຫວັດ​ທັ່ງ​ໝົດ"</string>
+<string name="search_no_results">"ບໍ່​ມີ​ຜົນ​ໄດ້​ຮັບ"</string>
+</resources>

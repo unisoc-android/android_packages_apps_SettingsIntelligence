@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"Інформація про програму"</string>
+<string name="accessibility_settings">"Доступність"</string>
+<string name="physical_keyboard_title">"Викор. реальну клавіатуру"</string>
+<string name="add_virtual_keyboard">"Керувати клавіатурами"</string>
+<string name="app_name_settings_intelligence">"Рекомендовані налаштування"</string>
+<string name="search_clear_history">"Очистити історію"</string>
+<string name="search_no_results">"Немає результатів"</string>
+</resources>

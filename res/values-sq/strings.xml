@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">Të dhënat e aplikimit</string>
+<string name="accessibility_settings">Mundësia e përdorimit</string>
+<string name="physical_keyboard_title">Tastierë fizike</string>
+<string name="add_virtual_keyboard">"Menaxho tastierat"</string>
+<string name="app_name_settings_intelligence">"Sugjerime për cilësimet"</string>
+<string name="search_clear_history">Pastro historinë</string>
+<string name="search_no_results">Nuk ka rezultate</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"అనువర్తనం సమాచారం"</string>
+<string name="accessibility_settings">"ప్రాప్యత సామర్థ్యం"</string>
+<string name="physical_keyboard_title">భౌతిక కీబోర్డు</string>
+<string name="add_virtual_keyboard">"కీ బోర్డు లుని నిర్వహించు"</string>
+<string name="app_name_settings_intelligence">"సెట్టింగులు సూచనలు"</string>
+<string name="search_clear_history">"హిస్టరీ తొలగించు"</string>
+<string name="search_no_results">"రిజల్ట్స్ లేవు"</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"Maklumat apl"</string>
+<string name="accessibility_settings">"Kebolehaksesan"</string>
+<string name="physical_keyboard_title">"Papan kekunci fizikal"</string>
+<string name="add_virtual_keyboard">"Urus papan kekunci"</string>
+<string name="app_name_settings_intelligence">"Cadangan Tetapan"</string>
+<string name="search_clear_history">"Kosongkan sejarah"</string>
+<string name="search_no_results">"Tiada keputusan"</string>
+</resources>

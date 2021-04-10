@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"ข้อมูลแอพ"</string>
+<string name="accessibility_settings">"การเข้าถึง"</string>
+<string name="physical_keyboard_title">"แป้นพิมพ์บนเครื่อง"</string>
+<string name="add_virtual_keyboard">"จัดการแป้นพิมพ์"</string>
+<string name="app_name_settings_intelligence">"คำแนะนำในการตั้งค่า"</string>
+<string name="search_clear_history">"ล้างประวัติ"</string>
+<string name="search_no_results">"ไม่มีผลลัพธ์"</string>
+</resources>

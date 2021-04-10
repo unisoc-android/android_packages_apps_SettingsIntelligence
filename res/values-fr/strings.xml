@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">" Informations sur l’application "</string>
+<string name="accessibility_settings">"Accessibilité"</string>
+<string name="physical_keyboard_title">" Clavier physique "</string>
+<string name="add_virtual_keyboard">"Gérer les claviers"</string>
+<string name="app_name_settings_intelligence">" Suggestions de configuration "</string>
+<string name="search_clear_history">"Effacer l\'historique"</string>
+<string name="search_no_results">"Pas de résultats"</string>
+</resources>

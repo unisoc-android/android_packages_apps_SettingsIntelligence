@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applications_settings">"App info"</string>
+<string name="accessibility_settings">"協助工具"</string>
+<string name="physical_keyboard_title">"實體鍵盤"</string>
+<string name="add_virtual_keyboard">"管理鍵盤"</string>
+<string name="app_name_settings_intelligence">"設定建議"</string>
+<string name="search_clear_history">"清除記錄"</string>
+<string name="search_no_results">"無結果"</string>
+</resources>
